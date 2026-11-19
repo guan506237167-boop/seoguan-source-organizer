@@ -1,0 +1,115 @@
+{
+  "rows": [
+    {
+      "record_id": "R1",
+      "platform": "doubao",
+      "question_id": "Q1",
+      "url": "https://EXAMPLE.com/a",
+      "location": "source_panel",
+      "normalized_url": "https://example.com/a",
+      "host": "example.com",
+      "raw_urls": [
+        "https://EXAMPLE.com/a",
+        "https://example.com/a"
+      ],
+      "source_lines": [
+        2,
+        3
+      ],
+      "original_rows": [
+        {
+          "line": 2,
+          "fields": {
+            "record_id": "R1",
+            "platform": "doubao",
+            "question_id": "Q1",
+            "url": "https://EXAMPLE.com/a",
+            "location": "source_panel"
+          }
+        },
+        {
+          "line": 3,
+          "fields": {
+            "record_id": "R1",
+            "platform": "doubao",
+            "question_id": "Q1",
+            "url": "https://example.com/a",
+            "location": "source_panel"
+          }
+        }
+      ],
+      "metadata_conflicts": {},
+      "provenance_complete": true
+    },
+    {
+      "record_id": "R2",
+      "platform": "yuanbao",
+      "question_id": "Q1",
+      "url": "https://example.com/a",
+      "location": "body",
+      "normalized_url": "https://example.com/a",
+      "host": "example.com",
+      "raw_urls": [
+        "https://example.com/a"
+      ],
+      "source_lines": [
+        4
+      ],
+      "original_rows": [
+        {
+          "line": 4,
+          "fields": {
+            "record_id": "R2",
+            "platform": "yuanbao",
+            "question_id": "Q1",
+            "url": "https://example.com/a",
+            "location": "body"
+          }
+        }
+      ],
+      "metadata_conflicts": {},
+      "provenance_complete": true
+    },
+    {
+      "record_id": "R1",
+      "platform": "doubao",
+      "question_id": "Q1",
+      "url": "https://example.com/a?lang=en",
+      "location": "source_panel",
+      "normalized_url": "https://example.com/a?lang=en",
+      "host": "example.com",
+      "raw_urls": [
+        "https://example.com/a?lang=en"
+      ],
+      "source_lines": [
+        5
+      ],
+      "original_rows": [
+        {
+          "line": 5,
+          "fields": {
+            "record_id": "R1",
+            "platform": "doubao",
+            "question_id": "Q1",
+            "url": "https://example.com/a?lang=en",
+            "location": "source_panel"
+          }
+        }
+      ],
+      "metadata_conflicts": {},
+      "provenance_complete": true
+    }
+  ],
+  "unique_urls": [
+    "https://example.com/a",
+    "https://example.com/a?lang=en"
+  ],
+  "invalid": [
+    {
+      "line": 6,
+      "raw_url": "not-a-url",
+      "error": "Expected HTTP(S) URL without credentials"
+    }
+  ],
+  "network_checked": false
+}

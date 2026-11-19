@@ -1,0 +1,6 @@
+record_id,platform,question_id,url,location
+R1,doubao,Q1,https://EXAMPLE.com/a,source_panel
+R1,doubao,Q1,https://example.com/a,source_panel
+R2,yuanbao,Q1,https://example.com/a,body
+R1,doubao,Q1,https://example.com/a?lang=en,source_panel
+R3,deepseek,Q2,not-a-url,source_panel
