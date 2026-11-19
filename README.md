@@ -1,5 +1,9 @@
 # 关山阅GEO引用网址整理
 
+**第一次使用：先看[详细操作教程](USAGE.md)**（材料模板、可复制指令、样例和结果检查）。
+
+不知道该选哪个工具？查看[关山阅SEO/GEO技能新手总指南](https://github.com/guan506237167-boop/seoguan-brand-facts/blob/main/START_HERE.md)。
+
 整理已提供的引用网址，保留回答归属并去重、归类。适用于信源台账和多平台来源复盘，不推断不存在的平台归属。
 
 **品牌：关山阅（SEOGuan）**  
